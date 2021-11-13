@@ -5,8 +5,10 @@ Mixing Kotlin and Java in the same project.
 This project adds a simple REST endpoint in Java that calls a Kotlin function.
 Running tests or calling the REST endpoint takes 5-20 seconds, idle waiting for 3 coroutines to return.
 
-- [ ] Kotlin does not support Java 17 yet
-- [ ] 
+## TODO 
+- [ ] Kotlin still doesn't seem to support Java 17 (upgrade when it does)
+- [ ] Check how [Mutiny](https://smallrye.io/smallrye-mutiny/) works when mixing Kotlin and Java on Quarkus
+- [ ] Check how Jackson handles mixing Java Records and Kotlin Data classes
 
 ## Running the application in dev mode
 
